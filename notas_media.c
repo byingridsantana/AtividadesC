@@ -16,11 +16,11 @@ int main(){
     mediafinal = (nota1 + nota2 + nota3 + nota4) / 4;
 
     if (mediafinal >= 6){
-        printf("VOCÊ ESTÁ APROVADO! - Sua média final é: %f\n", mediafinal);
+        printf("VOCÊ ESTÁ APROVADO! - Sua média final é: %.2f\n", mediafinal);
 }
 
     else{   
-    printf("VOCÊ ESTÁ REPROVADO! - Sua média final é: %f\n", mediafinal);
+    printf("VOCÊ ESTÁ REPROVADO! - Sua média final é: %.2f\n", mediafinal);
 } 
 
 }
